@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav>
-        <div class="=">
+        <div class="">
             <img src="img/icon.png" alt="logo">
             <p>Em<span>.</span></p>
         </div>
@@ -25,49 +25,34 @@
         </ul>
     </nav>
 
-    <main>
-        <div class="nama">
-            <p>Hi There 👋</p>
-            <h1>I'm <span>Arya </span>Maulana<span>.</span></h1>
-            <div class="text-slider">
-                <span class="text first-text">I'm a</span>
-                <span class="text sec-text">Frontend Developer</span>
+    <div class="container">
+        <div class="wrapper">
+            <div class="judul">
+                <p>Hi There 👋</p>
+                <h1>I'm Arya Maulana</h1>
             </div>
-            <p>Hii!! Saya Arya, Saya ada seorang siswa kelas 10 di SMK Telkom Malang, disini saya mengambil jurusan RPL (Rekayasa Perangkat Lunak) karena saya tertarik untuk mempelajari ilmu komputer seperti pemrograman website</p>
-        </div>
-
-        <div class="foto">  
-            <img class="foto-gwa" src="/img/Arya.jpeg" alt="Arya Maulana" width="250" height="250">
-        </div>
-    </main>
-
-    <section class="Project" id="section-2">
-        <div class="container">
-            <div class="row">
-
+            <div class="slider">
+                <span>I'm a Frontend Developer</span>
             </div>
+            <div class="content-about">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptas reprehenderit cupiditate atque, quaerat obcaecati qui, eos ipsam perspiciatis doloremque commodi aspernatur dolor consequuntur deserunt maxime animi odio ipsum vel.
+                Consequatur porro ut aperiam alias rerum modi deleniti quisquam natus? Voluptas ratione ab quas expedita assumenda? Vitae, pariatur? Ex veniam nobis dolores delectus, error tempore sapiente officia maiores est voluptas!
+            </div>
+        </div>  
+        <div class="foto">
+            <img class="foto-gwa" src="img/Arya.jpeg" alt="Arya Maulana" width="250" height="250">
         </div>
-    </section>
+    </div>
 
-    <script>
-        const text = document.querySelector(".sec-text")
-
-        const textloadv = () => {
-            setTimeout(() => {
-                text.textContent = "Frontend Developer"
-            }, 0)
-            setTimeout(() => {
-                text.textContent = "UI/UX Designer"
-            }, 4000)
-        }
-
-        textload();
-        setInterval(textload, 5000)
-    </script>
+    
     <script src="/script.js"></script>
 </body>
 </html>
 
+<!-- <div class="text-slider">
+    <span class="text first-text">I'm a</span>
+    <span class="text sec-text">Frontend Developer</span>
+</div> -->
 
 <!-- <svg id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" version="1.1">
     <defs> 
