@@ -116,18 +116,19 @@ main {
 }
 
 main div {
-    padding: 3rem 5rem;
+    padding: 4rem 5rem;
 }
 
 main div p {
     font-size: 20px;
-    color: #242424bf;
-    padding-top: 2rem;
+    color: #505050aa;
+    margin-top: 2rem;
+    margin-right: 6rem;
     /* max-width: 30%; */
 }
 
 main div h1 {
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
 }
 
@@ -135,14 +136,46 @@ main div span {
     color: #40A2E3;
 }
 
-main div h2 {
-    padding-top: 1rem;
-    font-size: 30px;
-    font-weight: 700;
-    color: #191919;
+.text-slider {
+    overflow: hidden;
+    margin-top: -3rem;
+    margin-left: -5rem;
+    margin-bottom: -4rem;
 }
 
-.intro-subtitle {
+.text-slider .text {
+    position: relative;
+    color: #40A2E3;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.text-slider .text.first-text {
+    color: #505050;
+}
+
+.text.sec-text::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #efefef;
+    border-left: 2px solid #40A2E3;
+    animation: animate 4s steps(12) infinite;   
+}
+
+@keyframes animate {
+    40%, 60% {
+        left: calc(100% + 4px);
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+/* .intro-subtitle {
     position: relative;
     overflow: hidden;
 }
@@ -153,7 +186,7 @@ main div h2 {
 
 .text-slider {
     animation: textSlide 8s infinite;
-}
+} */
 
 @keyframes textSlide {
     0% {
@@ -172,7 +205,6 @@ main div h2 {
     }
 }
 
-/* MAIN */
 
 .foto {
     margin-top: 3rem;

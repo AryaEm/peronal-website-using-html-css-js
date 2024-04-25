@@ -29,10 +29,12 @@
         <div class="nama">
             <p>Hi There 👋</p>
             <h1>I'm <span>Arya </span>Maulana<span>.</span></h1>
-            <h2>FrontEnd Developer</h2>
+            <div class="text-slider">
+                <span class="text first-text">I'm a</span>
+                <span class="text sec-text">Frontend Developer</span>
+            </div>
             <p>Hii!! Saya Arya, Saya ada seorang siswa kelas 10 di SMK Telkom Malang, disini saya mengambil jurusan RPL (Rekayasa Perangkat Lunak) karena saya tertarik untuk mempelajari ilmu komputer seperti pemrograman website</p>
         </div>
-        <div class="foto-bg"></div>
 
         <div class="foto">  
             <img class="foto-gwa" src="/img/Arya.jpeg" alt="Arya Maulana" width="250" height="250">
@@ -46,6 +48,22 @@
             </div>
         </div>
     </section>
+
+    <script>
+        const text = document.querySelector(".sec-text")
+
+        const textloadv = () => {
+            setTimeout(() => {
+                text.textContent = "Frontend Developer"
+            }, 0)
+            setTimeout(() => {
+                text.textContent = "UI/UX Designer"
+            }, 4000)
+        }
+
+        textload();
+        setInterval(textload, 5000)
+    </script>
     <script src="/script.js"></script>
 </body>
 </html>
