@@ -8,7 +8,7 @@ menuicon.addEventListener('click', () => {
 
 const text = document.querySelector(".sec-text")
 
-        const textload = () => {
+        const textLoad = () => {
             setTimeout(() => { //
                 text.textContent = "Frontend Developer"
             }, 0)
@@ -17,5 +17,5 @@ const text = document.querySelector(".sec-text")
             }, 4000)
         }
 
-        textload();
-        setInterval(textload, 5000)
+        textLoad();
+        setInterval(textLoad, 8000)
