@@ -1,31 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<style>
-    body{
-        margin: 0;
-        padding: 0;
+  </head>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
     }
-    .div1{
-        border: 1px solid black;
-        width: 100%;
-        height: 100px;
-    }
-    .div2{
-        border: 1px solid red;
-        width: 50%;
-        height: 80px;
-    }
-</style>
-<body>
-    <div class="div1">
-        <div class="div2">
 
+    .col-lg-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    .mt-5 {
+      margin-top: 1.25rem;
+    }
+
+    .mt-lg-0 {
+      margin-top: 0 !important;
+    }
+
+    .about-thumb {
+      background-color: #f8f9fa;
+      padding: 20px;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+    }
+
+    .col-lg-6 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+
+    .py-2 {
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+
+    .pt-4 {
+      padding-top: 1rem;
+    }
+
+    .featured-numbers {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .featured-text {
+      font-size: 14px;
+      margin: 0;
+    }
+
+    .featured-border-bottom {
+      border-bottom: 1px solid #dee2e6;
+    }
+
+    .featured-border-start {
+      border-left: 1px solid #dee2e6;
+    }
+
+    .statistic {
+        display: flex;
+        justify-content: center;
+    }
+    .wrapper {
+        height: 260px;
+        width: 50%;
+        border: 1px solid black;
+    }
+    .isi-kiri {
+        height: 100px;
+        width: 50%;
+        border: 1px ;
+    }
+    .isi-kiri p {
+        margin: 20px;
+        color: aquamarine;
+        font-weight: 700;
+        font-size: 60px;
+    }
+    .isi-kiri span {
+        font-weight: 500;
+        font-size: 15px;
+        color: black;
+        position: relative;
+        top: -35px;
+    }
+    .garis {
+        border: 1px solid #505050;
+        height: 260px;
+        width: 0;
+    }
+
+  </style>
+  <body>
+    <div class="statistic">
+      <div class="wrapper-stats">
+        <div class="isi-kiri">
+            <p>1<span><br>Years Of Study</span></p>
         </div>
+        <hr>
+        <div class="isi-kiri">
+            <p>5<span><br>Project Finished</span></p>
+        </div>
+      </div>
+      <div class="garis"></div>
+      <div class="wrapper-stats">
+        <div class="isi-kiri">
+            <p>1<span><br>Years Of Study</span></p>
+        </div>
+        <hr>
+        <div class="isi-kiri">
+            <p>5<span><br>Project Finished</span></p>
+        </div>
+      </div>
     </div>
-</body>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+
+    <div class="col-lg-6 col-12 mt-5 mt-lg-0">
+      <div class="about-thumb">
+        <div class="row">
+          <div class="col-lg-6 col-6 featured-border-bottom py-2">
+            <strong class="featured-numbers">1 </strong>
+            <p class="featured-text">Years of Study</p>
+          </div>
+          <div
+            class="col-lg-6 col-6 featured-border-start featured-border-bottom ps-5 py-2"
+          >
+            <strong class="featured-numbers">0</strong>
+            <p class="featured-text">Happy Customers</p>
+          </div>
+          <div class="col-lg-6 col-6 pt-4">
+            <strong class="featured-numbers">2</strong>
+            <p class="featured-text">Project Finished</p>
+          </div>
+          <div class="col-lg-6 col-6 featured-border-start ps-5 pt-4">
+            <strong class="featured-numbers">4</strong>
+            <p class="featured-text">Digital Awards</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+
+    <table class="info-table">
+      <thead>
+        <tr>
+          <th colspan="2">Information</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>h1Name</td>
+          <td>Arya Maulana</td>
+        </tr>
+        <tr>
+          <td>Birthday</td>
+          <td>5 April, 2000</td>
+        </tr>
+        <tr>
+          <td>Phone</td>
+          <td>+0 0000000</td>
+        </tr>
+        <tr>
+          <td>Email</td>
+          <td>rah@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
 </html>
