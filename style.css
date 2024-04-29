@@ -663,3 +663,32 @@ nav ul li a:hover {
   border: 1px solid black;
 }
 
+.footer {
+  height: 320px;
+  width: 100%;
+  background: #40a2e3;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid black;
+}
+.social-icons ul li{
+  text-decoration: none;
+  list-style: none;
+}
+.icons {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  /* justify-content: center; */
+  justify-content: space-around;
+  align-items: center;
+  background: #40a2e3;
+  transition: all;
+  transition-duration: 300ms;
+  margin: 20px 60px;
+  padding: 40px 20px;
+}
