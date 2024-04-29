@@ -658,3 +658,12 @@ nav ul li a:hover {
   height: 150px;
   border: 1px solid black;
 }
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: #40a2e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
