@@ -569,3 +569,55 @@ nav ul li a:hover {
 .ket-sch:hover {
   border: 2px solid #40a2e3;
 }
+
+
+.certificate {
+  width: 100%;
+  height: 500px;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.cer1 {
+  width: 25%;
+  height: 300px;
+  border: 1px solid #50505085;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 25px;
+}
+.cer2 {
+  margin: 40px;
+  width: 25%;
+  height: 300px;
+  border: 1px solid #50505085;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 25px;
+}
+
+.cer3 {
+  width: 25%;
+  height: 300px;
+  border: 1px solid #50505085;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 25px;
+}
+
+.cer-foto {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+  border: 1px solid black;
+}
