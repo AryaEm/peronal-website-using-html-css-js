@@ -221,7 +221,7 @@ nav ul li a:hover {
 .foto {
   position: relative;
   left: 120px;
-  /* top: 20px; */
+  top: 20px;
   /* justify-content: center; */
   /* border: 1px solid blue; */
 }
@@ -238,7 +238,7 @@ nav ul li a:hover {
   background-color: #f9f9f9;
   /* border: 1px solid black; */
   width: 100%;
-  height: 600px;
+  height: 400px;
   display: flex;
   /* align-items: center; */
   justify-content: center;
@@ -297,7 +297,7 @@ nav ul li a:hover {
   padding-top: 20px;
   transition: all;
   transition-duration: 100ms;
-  border: 1px solid #40a2e300;
+  /* border: 1px solid #40a2e300; */
 }
 .award {
   width: 23%;
@@ -309,7 +309,7 @@ nav ul li a:hover {
   padding-top: 20px;
   transition: all;
   transition-duration: 100ms;
-  border: 1px solid #40a2e300;
+  /* border: 1px solid #40a2e300; */
 }
 .project {
   width: 23%;
@@ -320,7 +320,7 @@ nav ul li a:hover {
   padding-top: 20px;
   transition: all;
   transition-duration: 100ms;
-  border: 1px solid #40a2e300;
+  /* border: 1px solid #40a2e300; */
 }
 
 .years:hover {
@@ -346,6 +346,125 @@ nav ul li a:hover {
   font-weight: 400;
   position: relative;
   padding-bottom: 20px;
+}
+
+.skill {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 650px;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  background-color: #f9f9f9;
+  /* border: 1px solid black; */
+}
+
+.skill-wrap {
+  background-color: #f9f9f9;
+  width: 500px;
+  height: 500px;
+  list-style: none;
+  margin: 60px 100px;
+  /* margin-top: 20px; */
+  padding: 30px 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+}
+
+.skill-wrap li {
+  margin: 15px 0;
+  padding: 5px;
+}
+.bar {
+  background: #d2d2d2;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 12px rgba(0, 0, 0, 0.22);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.bar:hover{
+  box-shadow: 0 8px 16px rgba(57, 149, 255, 0.12), 0 5px 5px rgba(0, 128, 255, 0.22);
+}
+
+.bar span {
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, rgba(2, 110, 160, 1)0%, rgba(27, 215, 252, 1)100%);
+}
+
+.bar-html {
+  width: 98%;
+  animation: bar-html 3s;
+}
+.bar-css {
+  width: 75%;
+  animation: bar-css 3s;
+}
+.bar-js {
+  width: 20%;
+  animation: bar-js 3s;
+}
+.bar-php {
+  width: 45%;
+  animation: bar-php 3s;
+}
+.bar-uiux {
+  width: 90%;
+  animation: bar-uiux 3s;
+}
+
+@keyframes bar-html {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 98%;
+  }
+}
+@keyframes bar-css {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 75%;
+  }
+}
+@keyframes bar-js {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 20%;
+  }
+}
+@keyframes bar-php {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 45%;
+  }
+}
+@keyframes bar-uiux {
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+
+
+.skill-wrap h1 {
+  text-align: center;
+}
+.skill-wrap h3 {
+  margin: 5px;
 }
 
 .riwayat-sekolah {
