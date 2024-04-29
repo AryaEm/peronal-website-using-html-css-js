@@ -213,7 +213,7 @@ nav ul li a:hover {
 
 .wrapper2 {
   display: flex;
-  /* border: 1px solid blue; */
+  /* border: 1px solid black; */
   width: 35%;
   height: 100%;
 }
@@ -221,8 +221,9 @@ nav ul li a:hover {
 .foto {
   position: relative;
   left: 120px;
-  top: 20px;
+  /* top: 20px; */
   /* justify-content: center; */
+  /* border: 1px solid blue; */
 }
 
 .foto-gwa {
@@ -294,6 +295,9 @@ nav ul li a:hover {
   border: 1px solid gray;
   text-align: center;
   padding-top: 20px;
+  transition: all;
+  transition-duration: 100ms;
+  border: 1px solid #40a2e300;
 }
 .award {
   width: 23%;
@@ -303,6 +307,9 @@ nav ul li a:hover {
   border: 1px solid gray;
   text-align: center;
   padding-top: 20px;
+  transition: all;
+  transition-duration: 100ms;
+  border: 1px solid #40a2e300;
 }
 .project {
   width: 23%;
@@ -311,22 +318,19 @@ nav ul li a:hover {
   border: 1px solid gray;
   text-align: center;
   padding-top: 20px;
+  transition: all;
+  transition-duration: 100ms;
+  border: 1px solid #40a2e300;
 }
 
 .years:hover {
   border: 1.5px solid #40a2e3;
-  transition: all;
-  transition-duration: 50ms;
 }
 .project:hover {
   border: 1.5px solid #40a2e3;
-  transition: all;
-  transition-duration: 50ms;
 }
 .award:hover {
   border: 1.5px solid #40a2e3;
-  transition: all;
-  transition-duration: 50ms;
 }
 
 .wrapper-kanan h1 {
@@ -376,6 +380,9 @@ nav ul li a:hover {
   box-shadow: -20px 28px 88px -30px rgba(0, 0, 0, 0.29);
   border-radius: 20px;
   padding: 40px;
+  transition: all;
+  transition-duration: 100ms;
+  border: 1px solid #40a2e300;
 }
 
 .head-lagi {
@@ -411,9 +418,19 @@ nav ul li a:hover {
   font-weight: 700;
   margin-top: -15px;
 }
+.nama-sch a {
+  text-decoration: none;
+  color: black;
+  transition: all;
+  transition-duration: 300ms;
+  border-bottom: 1px solid #40a2e300;
+}
+.nama-sch a:hover{
+  /* text-decoration: underline; */
+  color: #40a2e3;
+  border-bottom: 1px solid #40a2e3;
+}
 
 .ket-sch:hover {
   border: 2px solid #40a2e3;
-  transition: all;
-  transition-duration: 100ms;
 }
