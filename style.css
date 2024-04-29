@@ -233,7 +233,7 @@ nav ul li a:hover {
   box-shadow: 9px 18px 41px -6px rgba(80, 80, 80, 0.49);
 }
 
-.githu-main{
+.githu-main {
   height: 80px;
   border: 1px solid #333;
 }
@@ -607,7 +607,6 @@ nav ul li a:hover {
   border: 2px solid #40a2e3;
 }
 
-
 .certificate {
   width: 100%;
   height: 500px;
@@ -651,6 +650,7 @@ nav ul li a:hover {
 }
 
 .cer-foto {
+  border-radius: 15px;
   align-items: center;
   display: flex;
   justify-content: center;
@@ -660,10 +660,41 @@ nav ul li a:hover {
 }
 
 .footer {
-  width: 100%;
-  height: 200px;
-  background-color: #40a2e3;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 190%;
+  background: #40a2e3;
+  height: 100px;
+  flex-direction: column;
+}
+
+footer .social-item,
+footer .menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+footer .social-item li,
+footer .menu li {
+  list-style: none;
+}
+
+footer .social-item li a {
+  font-size: 32px;
+  color: #505050;
+  margin: 0 10px;
+  display: inline-block;
+}
+
+footer .menu a {
+  font-size: 20px;
+  color: #505050;
+  margin: 0 10px;
+  display: inline-block;
 }
