@@ -667,35 +667,39 @@ nav ul li a:hover {
   height: 320px;
   width: 100%;
   background: #40a2e3;
+  /* padding: 10px 0; */
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none !important;
 }
 
 .social-icons {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border: 1px solid black;
-}
-.social-icons ul li{
-  text-decoration: none;
-  list-style: none;
-}
-.icons {
-  width: 20%;
-  height: 40px;
-  display: flex;
-  border: 1px solid black;
-  /* justify-content: center; */
-  justify-content: space-around;
-  align-items: center;
-  background: #40a2e3;
-  transition: all;
-  transition-duration: 300ms;
-  
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 
-footer ul {
-  display: flex;
+.icons {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-top: 32px;
+  margin-top: 80px;
+}
+
+.list-icons {
+  padding-left: 0;
   list-style: none;
-  align-items: center;
-  gap: 2rem;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  
 }
