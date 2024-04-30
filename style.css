@@ -680,15 +680,22 @@ nav ul li a:hover {
   list-style: none;
 }
 .icons {
-  width: 40px;
+  width: 20%;
   height: 40px;
   display: flex;
+  border: 1px solid black;
   /* justify-content: center; */
   justify-content: space-around;
   align-items: center;
   background: #40a2e3;
   transition: all;
   transition-duration: 300ms;
-  margin: 20px 60px;
-  padding: 40px 20px;
+  
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  gap: 2rem;
 }
