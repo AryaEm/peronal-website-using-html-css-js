@@ -19,3 +19,5 @@ const text = document.querySelector(".sec-text")
 
         textLoad();
         setInterval(textLoad, 8000)
+
+        
